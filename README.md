@@ -1,27 +1,28 @@
-# EmployeeDashboard
+# Projeto de Desenvolvimento
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+Este repositório contém o código fonte do frontend de um projeto desenvolvido como parte do meu primeiro contato prático com Angular. O projeto foi realizado como parte de um processo de aprendizado e aplicação dessa tecnologia.
 
-## Development server
+## Visão Geral do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo deste projeto é criar a interface do usuário para uma aplicação web de gerenciamento de departamentos e funcionários. As principais funcionalidades incluem:
 
-## Code scaffolding
+* Listagem de departamentos
+* Detalhes de um departamento
+* Adição de um novo departamento
+* Atualização de um departamento existente
+* Exclusão de um departamento
+* Lista de funcionários por departamento (em progresso)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estrutura do Projeto
 
-## Build
+O código está organizado nas seguintes pastas:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* **components**: Componentes Angular responsáveis pela interface do usuário.
+* **models**: Definição dos modelos de dados utilizados na aplicação.
+* **services**: Serviços Angular para comunicação com a API.
 
-## Running unit tests
+Cada componente possui arquivos separados para estilos, templates, testes e código TypeScript.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Feedback e Melhorias
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto representa meu primeiro contato prático com Angular, e qualquer feedback ou sugestão de melhoria será muito apreciado. Sinta-se à vontade para abrir issues ou contribuir com pull requests.

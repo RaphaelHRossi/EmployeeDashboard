@@ -1,0 +1,20 @@
+<div>
+  <h2>{{ editando ? 'Editar Departamento' : 'Novo Departamento' }}</h2>
+
+  <!-- Exibir o número do departamento -->
+  <p *ngIf="editando">Número do Departamento: {{ departamento.id }}</p>
+
+  <form (ngSubmit)="salvarDepartamento()">
+    <!-- Campo Nome -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" [(ngModel)]="departamento.nome" name="nome" required>
+
+    <!-- Campo Sigla -->
+    <label for="sigla">Sigla:</label>
+    <input type="text" id="sigla" [(ngModel)]="departamento.sigla" name="sigla" required>
+
+    <!-- Adicione outros campos do departamento conforme necessário -->
+
+    <button type="submit">{{ editando ? 'Atualizar' : 'Salvar' }}</button>
+  </form>
+</div>

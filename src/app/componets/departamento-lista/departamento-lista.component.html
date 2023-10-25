@@ -4,7 +4,6 @@
   <li *ngFor="let departamento of departamentos">
     {{ departamento.nome }}
 
-    <!-- Adicione links ou botões para editar e deletar -->
     <a routerLink="/departamentos/editar/{{ departamento.id }}">Editar</a>
     <button (click)="deletarDepartamento(departamento.id)">Deletar</button>
   </li>

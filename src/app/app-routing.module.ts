@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DepartamentoDetalhesComponent } from './componets/departamento-detalhes/departamento-detalhes.component';
 import { DepartamentoFormComponent } from './componets/departamento-form/departamento-form.component';
 import { DepartamentoListaComponent } from './componets/departamento-lista/departamento-lista.component';
 
